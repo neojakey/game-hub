@@ -39,7 +39,7 @@ const GenreList = ({ selectedGenre, onSelectGenre }: Props) => {
                             }
                             color={
                                 genre.id === selectedGenre?.id
-                                    ? 'yellow'
+                                    ? 'green'
                                     : 'initial'
                             }
                             onClick={() => onSelectGenre(genre)}
