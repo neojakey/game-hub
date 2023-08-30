@@ -8,7 +8,7 @@ interface Props {
 }
 
 const GameAttributes = ({ game }: Props) => {
-  return (
+    return (
         <Grid
             templateRows='repeat(2, 1fr)'
             templateColumns='repeat(2, 1fr)'
