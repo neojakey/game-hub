@@ -1,7 +1,5 @@
-import { Text, GridItem, Heading, Box } from '@chakra-ui/react';
+import { Box, GridItem, Heading } from '@chakra-ui/react';
 import { ReactNode } from 'react';
-import { Platform } from '../entities/Platform';
-import CriticScore from './CriticScore';
 
 interface Props {
     title: string;
